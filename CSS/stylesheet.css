@@ -1,0 +1,153 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+  
+  /* NAVBAR STYLING STARTS */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+    background-color: flex gray;
+  
+   }
+   .nav-links a {
+    color:black;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e9e;
+  
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   
+  
+  
+  
+  body{
+    
+    font-family: sans-serif;
+    font-size: 110%;
+    
+    display: block;
+    margin: 0px;
+    flex-direction: column;
+    border: 10px solid; 
+    background: white url(../images/fullimage.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-color: orangered;
+    background-position:center;
+  }
+  header{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    background-image: url(../images/face.jpeg);
+    background-size: cover;
+    color: black;
+    padding: 10px; ;
+    height: 500px; 
+    border: 5px solid #1f2833 ;
+   
+   
+  
+  }
+  
+
+  
+  #heading{
+    font-family: sans-serif;
+    background-color: #1f2833;
+    /* display: inline-flex; */
+    padding: 1rem;
+    color:#ccc;
+  }
+  #headshot{
+    width: 15%;
+    height:15%;
+   border-radius: 50%;
+    border: 3px ;
+    position: relative;
+    top :2px;
+  }
+  #element2{
+    position : relative;
+    left : 10px;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+  #sidebar {
+  width: 20%;
+  padding: rem;
+  background-color: #45462a;
+  color: aliceblue;
+  position: relative;
+  top: 20px;
+  }
+  
+  #content{
+    width: 50%;
+    padding : 1rem;
+    margin: 1rem;
+  }
+  .nav-menu{
+     list-style-type: none;
+     padding: 0;
+     color: blanchedalmond;
+    }
+     /*TODO: Createa a top nav bar that is shown on small viewports*/
+     /* @media screen and (min-width: 0px) {
+       #nav-menu { display: block; }
+     }*/
+  footer{
+    background-color: #343330;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    align-items: center;
+  }
+  .centerdiv{
+  
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #icon {
+  width:1px;
+  margin: 0.5rem;
+  height: auto;
+  border-radius: 20px
+  }
+  a:link{
+    color: inherit;
+  }
